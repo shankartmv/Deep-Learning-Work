@@ -19,3 +19,8 @@ Flow Chart
 5. remove of horizontal continuous lines
 6. find contours and draw contours
 7. segmentation
+
+Reference 
+---------
+https://www.pyimagesearch.com/2020/08/24/ocr-handwriting-recognition-with-opencv-keras-and-tensorflow/
+Udemy course - Deep Learning Computer Vision™ CNN, OpenCV, YOLO, SSD & GANs
