@@ -1,0 +1,21 @@
+Assumptions
+-----------
+
+1. Hand written docs will be in white paper and some dark ink
+2. The paper might have horizontal lines but not vertical lines.if so how to remove them ? math paper to be used
+3. Each sentence can be written in any manner - meaning not horizontal but also zig zag
+4. Dark paper with light ink - to be inverted. very rare case. not to be focussed for now
+
+Flow Chart
+----------
+
+1. read the input image
+2. find out the average , median size of the line thickness i.e., each character thickness. histogram if possible
+3. dilation based on the thickness. 
+   Remember - With some white image in a black/dark background. White - img data, black - no data. just like a black image would mean nothing to humans.  
+   Dilation - increases white pixels. Thickens the image
+   Erosion - decreases white pixels. erodes the pixels. 
+4. canny edges with and without blurring
+5. remove of horizontal continuous lines
+6. find contours and draw contours
+7. segmentation
